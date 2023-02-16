@@ -1,3 +1,4 @@
+import Body from "@/components/Body";
 import Header from "@/components/Header";
 import Head from "next/head";
 
@@ -14,10 +15,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
-      <div>
-        <h1>hello</h1>
-      </div>
+      <Header/>
+      <Body/>
+
     </>
   );
 }
